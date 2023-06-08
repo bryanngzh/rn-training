@@ -10,6 +10,8 @@ const HomeScreen = () => {
       <Button title="Cat" onPress={() => navigation.navigate('Cat')} />
       <View style={styles.buttonSpacing} />
       <Button title="Timer" onPress={() => navigation.navigate('Timer')} />
+      <View style={styles.buttonSpacing} />
+      <Button title="Profile" onPress={() => navigation.navigate('Profile')} />
     </View>
   );
 };
